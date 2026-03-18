@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rakesh — Builder. Marketer. Founder.</title>
+  <title>RAKESHWAR DEIVEEGAN — Builder. Marketer. Founder.</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
 
   <style>
+
+    /* ✅ ADD THIS INSIDE STYLE */
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    /* KEEP YOUR EXISTING CSS BELOW */
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
@@ -482,20 +491,14 @@
     }
 
     .hero-card-avatar {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--heading);
-      font-weight: 800;
-      font-size: 1.8rem;
-      color: #fff;
-      margin-bottom: 20px;
-    }
-
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+  margin-bottom: 20px;
+}
     .hero-card-name {
       font-family: var(--heading);
       font-weight: 700;
@@ -1539,13 +1542,13 @@
 
   <div id="loader">
     <div class="loader-inner">
-      <div class="loader-logo">Rakesh.</div>
+      <div class="loader-logo">RAKESHWAR DEIVEEGAN.</div>
       <div class="loader-bar"><div class="loader-bar-fill"></div></div>
     </div>
   </div>
 
   <nav id="navbar">
-    <a href="#hero" class="nav-logo">Rakesh.</a>
+    <a href="#hero" class="nav-logo">RAKESHWAR DEIVEEGAN.</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -1581,7 +1584,7 @@
           <span class="line"><span class="word">opportunities.</span></span>
         </h1>
         <p class="hero-desc">
-          I'm <strong style="color:var(--text)">Rakesh</strong> — an AI &amp; Data Science student, founder of <strong style="color:var(--text)">ScaleLevel</strong>, and a growth-driven digital marketer. I build things that work: brands that convert, websites that impress, and marketing that scales.
+          I'm <strong style="color:var(--text)">RAKESHWAR DEIVEEGAN</strong> — an AI &amp; Data Science student, founder of <strong style="color:var(--text)">ScaleLevel</strong>, and a growth-driven digital marketer. I build things that work: brands that convert, websites that impress, and marketing that scales.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn-primary">
@@ -1603,8 +1606,10 @@
       <div class="hero-visual">
         <div style="position:relative; display:inline-block;">
           <div class="hero-card">
-            <div class="hero-card-avatar">R</div>
-            <div class="hero-card-name">Rakesh</div>
+            <div class="hero-card-avatar">
+  <img src="profile.jpg" alt="Rakesh profile photo" class="profile-img">
+</div>
+            <div class="hero-card-name">RAKESHWAR DEIVEEGAN</div>
             <div class="hero-card-role">Founder · Marketer · Builder</div>
             <div class="hero-card-tags">
               <span class="tag accent">ScaleLevel 🚀</span>
@@ -1684,7 +1689,7 @@
         <div class="about-content reveal-right">
           <div class="section-tag">About Me</div>
           <h2 class="section-title">Where Technology Meets Business Strategy</h2>
-          <p>I'm Rakesh — a B.Tech AI &amp; Data Science student who refused to wait until graduation to start building. While most students are studying theory, I'm out here running a <strong>social media marketing agency</strong>, working with real clients, and developing skills that actually pay.</p>
+          <p>I'm RAKESHWAR DEIVEEGAN — a B.Tech AI &amp; Data Science student who refused to wait until graduation to start building. While most students are studying theory, I'm out here running a <strong>social media marketing agency</strong>, working with real clients, and developing skills that actually pay.</p>
           <p>I founded <strong>ScaleLevel</strong> because I saw a gap: businesses with great products but zero digital presence. I bridge that gap — through sharp strategy, clean execution, and a genuine hunger to grow. From website design to paid outreach, I handle it all.</p>
           <p>My edge? I sit at the intersection of <strong>technology and marketing</strong>. I understand how algorithms work AND how humans decide. That makes me a different kind of marketer — one who thinks in data and speaks in stories.</p>
           <div class="about-highlights">
@@ -1740,7 +1745,7 @@
         <div class="timeline reveal-right">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
-            <div class="timeline-date">2023 — Present</div>
+            <div class="timeline-date">2022 — Present</div>
             <div class="timeline-title">Founder &amp; CEO — ScaleLevel</div>
             <div class="timeline-company">Digital Marketing Agency</div>
             <div class="timeline-body">Founded ScaleLevel to help businesses grow their digital presence. Providing end-to-end marketing services including social media, website development, lead generation, branding, and outreach. Built the agency from zero — systems, clients, and delivery.</div>
@@ -1749,7 +1754,7 @@
 
           <div class="timeline-item">
             <div class="timeline-dot"></div>
-            <div class="timeline-date">2023 — Present</div>
+            <div class="timeline-date">2022 — Present</div>
             <div class="timeline-title">B.Tech Student — AI &amp; Data Science</div>
             <div class="timeline-company">Engineering College, India</div>
             <div class="timeline-body">Pursuing a technical degree that sharpens my analytical edge. Studying machine learning, data analysis, Python, statistics, and AI systems — skills I actively apply in my marketing work to make smarter, data-backed decisions.</div>
@@ -1758,7 +1763,7 @@
 
           <div class="timeline-item">
             <div class="timeline-dot"></div>
-            <div class="timeline-date">2023</div>
+            <div class="timeline-date">2022</div>
             <div class="timeline-title">Website &amp; Marketing Services</div>
             <div class="timeline-company">Dental Clinic Client</div>
             <div class="timeline-body">Delivered a complete digital overhaul for a dental clinic — website design, Google presence setup, social media content, and a local lead generation system. Learned how to translate client needs into digital results.</div>
@@ -1767,7 +1772,7 @@
 
           <div class="timeline-item">
             <div class="timeline-dot"></div>
-            <div class="timeline-date">2022 — 2023</div>
+            <div class="timeline-date">2022 — 2026</div>
             <div class="timeline-title">Sales &amp; Outreach Experience</div>
             <div class="timeline-company">Various Roles</div>
             <div class="timeline-body">Developed core sales muscles: cold calling, email outreach, pitching, handling objections, and closing. This experience shaped how I think about persuasion, value communication, and client psychology.</div>
@@ -1904,7 +1909,7 @@
       <div class="testimonials-grid">
         <div class="testimonial-card reveal">
           <div class="testimonial-quote-mark">"</div>
-          <div class="testimonial-text">Rakesh completely transformed how our clinic shows up online. He was professional, clear, and delivered exactly what he promised. We saw more calls within weeks of the website going live.</div>
+          <div class="testimonial-text">RAKESHWAR DEIVEEGAN completely transformed how our clinic shows up online. He was professional, clear, and delivered exactly what he promised. We saw more calls within weeks of the website going live.</div>
           <div class="testimonial-author">
             <div class="testimonial-avatar" style="background: linear-gradient(135deg, #3b82f6, #8b5cf6);">D</div>
             <div>
@@ -1916,7 +1921,7 @@
 
         <div class="testimonial-card reveal">
           <div class="testimonial-quote-mark">"</div>
-          <div class="testimonial-text">What stands out about Rakesh is his thinking. He doesn't just execute — he asks the right questions first. That strategic mindset is rare in someone this age. I was genuinely impressed.</div>
+          <div class="testimonial-text">What stands out about RAKESHWAR DEIVEEGAN is his thinking. He doesn't just execute — he asks the right questions first. That strategic mindset is rare in someone this age. I was genuinely impressed.</div>
           <div class="testimonial-author">
             <div class="testimonial-avatar" style="background: linear-gradient(135deg, #22d3ee, #3b82f6);">M</div>
             <div>
@@ -1928,7 +1933,7 @@
 
         <div class="testimonial-card reveal">
           <div class="testimonial-quote-mark">"</div>
-          <div class="testimonial-text">Fast, responsive, and results-driven. Rakesh handled our social media content strategy and it genuinely improved our engagement. Would recommend without hesitation.</div>
+          <div class="testimonial-text">Fast, responsive, and results-driven. RAKESHWAR DEIVEEGAN handled our social media content strategy and it genuinely improved our engagement. Would recommend without hesitation.</div>
           <div class="testimonial-author">
             <div class="testimonial-avatar" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">A</div>
             <div>
@@ -1950,29 +1955,29 @@
           <p>Whether you need a marketing partner, a website built, or a growth strategy — I'm open to conversations that matter. Reach out and let's explore what we can build together.</p>
 
           <div class="contact-links">
-            <a href="mailto:rakesh@scalelevel.in" class="contact-link">
+            <a href="mailto:rakeshwar1702@gmail.com" class="contact-link">
               <div class="contact-link-icon" style="background:rgba(59,130,246,0.12); color:var(--accent);">✉️</div>
               <div class="contact-link-text">
                 <div class="contact-link-label">Email</div>
-                <div class="contact-link-value">rakesh@scalelevel.in</div>
+                <div class="contact-link-value">rakeshwar1702@gmail.com</div>
               </div>
               <span class="contact-arrow">→</span>
             </a>
 
-            <a href="https://linkedin.com/in/rakesh" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <a href="https://www.linkedin.com/in/rakeshwar-deiveegan-b172702ba" target="_blank" rel="noopener noreferrer" class="contact-link">
               <div class="contact-link-icon" style="background:rgba(59,130,246,0.12); color:var(--accent);">💼</div>
               <div class="contact-link-text">
                 <div class="contact-link-label">LinkedIn</div>
-                <div class="contact-link-value">linkedin.com/in/rakesh</div>
+                <div class="contact-link-value">linkedin.com/in/RAKESHWAR DEIVEEGAN</div>
               </div>
               <span class="contact-arrow">→</span>
             </a>
 
-            <a href="https://instagram.com/rakesh" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <a href="https://www.instagram.com/thescalevel?igsh=N2RzemRzcWZkY3g=" target="_blank" rel="noopener noreferrer" class="contact-link">
               <div class="contact-link-icon" style="background:rgba(139,92,246,0.12); color:var(--accent-2);">📸</div>
               <div class="contact-link-text">
                 <div class="contact-link-label">Instagram</div>
-                <div class="contact-link-value">@rakesh</div>
+                <div class="contact-link-value">@RAKESHWAR DEIVEEGAN</div>
               </div>
               <span class="contact-arrow">→</span>
             </a>
@@ -2021,7 +2026,7 @@
 
   <footer>
     <div>
-      <div class="footer-name">Rakesh.</div>
+      <div class="footer-name">RAKESHWAR DEIVEEGAN.</div>
       <div class="footer-tagline">Building brands, websites, and opportunities.</div>
     </div>
     <div class="footer-right">
